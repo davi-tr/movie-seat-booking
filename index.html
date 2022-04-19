@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Cinema Macaé</title>
+</head>
+<body>
+    <div class="movie-container">
+        <label>Escolha um Filme</label>
+       <select id="movie">
+           <option value="28">Doutor Estranho no Multiverso da Loucura(R$28)</option>
+           <option value="26">Animais Fantásticos: Os Segredos de Dumbledore(R$26)</option>
+           <option value="24">Morbius(R$24)</option>
+           <option value="22">Sonic 2 - O Filme(R$22)</option>
+       </select> 
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Vago</small>
+        </li>
+    
+    <li>
+        <div class="seat-selected"></div>
+        <small>Selecionado</small>
+    </li>
+    
+        <li>
+            <div class="seat occupied"></div>
+            <small>Ocupado</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          
+        </div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+        </div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+        </div>
+      </div>
+
+      <p class="text">
+          Você Selecionou <span id="count">0</span> Acentos por um preço de R$<span id="total">0</span>
+      </p>
+
+      <script src="/src/index.js"></script>
+
+</body>
+</html>
